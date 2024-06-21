@@ -7,10 +7,7 @@
 ### 2. Install requirements
 - ```pip install --upgrade pip```
 - ```pip install -r requirements.txt```
-### 3. Create .env file and fill it with your data:
-- SECRET_KEY =
-- EMAIL_HOST_USER =
-- EMAIL_HOST_PASSWORD =
+### 3. Create .env file and fill it with your data (example in .env.tmp file):
 ### 4. Make migrations
 - ```python server/manage.py makemigrations```
 - ```python server/manage.py migrate```
